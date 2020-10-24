@@ -17,10 +17,10 @@ function About() {
             />
         </div>
 
-        <div className='icons'>
+        {/* <div className='icons'>
             <img className='react_icon icon' src={react_icon} alt='React Icon'></img>
             <img className='python_icon icon' src={python_logo} alt='Python Icon'></img>
-        </div>
+        </div> */}
         
             
         
