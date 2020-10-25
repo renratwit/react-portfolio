@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Typical from 'react-typical';
-// import react_icon from '../images/react_icon.jpg'
-// import python_logo from '../images/python_logo.png'
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faJsSquare } from '@fortawesome/free-brands-svg-icons';
 import './icons.css';
 
 
@@ -17,10 +18,9 @@ function About() {
             />
         </div>
 
-        {/* <div className='icons'>
-            <img className='react_icon icon' src={react_icon} alt='React Icon'></img>
-            <img className='python_icon icon' src={python_logo} alt='Python Icon'></img>
-        </div> */}
+        <div className='icons'>
+            <FontAwesomeIcon icon={faJsSquare}/>
+        </div>
         
             
         
