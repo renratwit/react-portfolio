@@ -20,6 +20,7 @@ function About() {
 
         <div className='icons'>
             <FontAwesomeIcon icon={faJsSquare}/>
+            
         </div>
         
             
