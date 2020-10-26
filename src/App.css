@@ -9,10 +9,12 @@
 }
 
 .jumbo {
-  padding: 30px;
   background-color: #111;
   color: ivory;
-  height: 45vh;
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .jumbo .type {
@@ -20,11 +22,12 @@
 }
 
 .info {
-  margin-top: 20px;
+  margin-top: 5px;
   background-color: black;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 10px;
+  align-content: center;
 }
 
 .wrapper {
@@ -32,7 +35,8 @@
   background: linear-gradient(to right, purple, blue);
   padding: 4px;
   height: 100%;
-  margin-right: 20px;
+  border-radius: 2%;
+  width: 30%;
 }
 
 .text {
@@ -40,14 +44,19 @@
   color: white;
   padding: 10px;
   height: 20vh;
+  border-radius: 2%;
+  min-height: 25vh;
+  line-height: 20px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 830px) {
   .info {
     flex-direction: column;
+    align-items: center;
   }
 
   .info .wrapper {
     margin-top: 20px;
+    width: 100%;
   }
 }

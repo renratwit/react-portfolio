@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Typical from 'react-typical';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJsSquare } from '@fortawesome/free-brands-svg-icons';
+import { faJsSquare, faHtml5, faReact, faPython, faCSS3, faCss3, faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import './icons.css';
 
 
@@ -19,8 +19,13 @@ function About() {
         </div>
 
         <div className='icons'>
-            <FontAwesomeIcon icon={faJsSquare}/>
-            
+            <FontAwesomeIcon className='icon' icon={faJsSquare}/>
+            <FontAwesomeIcon className='icon' icon={faHtml5}/>
+            <FontAwesomeIcon className='icon' icon={faCss3}/>
+            <FontAwesomeIcon className='icon' icon={faReact}/>
+            <FontAwesomeIcon className='icon' icon={faNodeJs}/>
+            <FontAwesomeIcon className='icon' icon={faPython}/>
+
         </div>
         
             
