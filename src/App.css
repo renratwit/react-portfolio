@@ -11,10 +11,15 @@
 .jumbo {
   background-color: #111;
   color: ivory;
-  height: 48vh;
+  height: 98vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: 20px;
+  min-height: 500px;
+
+  background-image: url(images/pexels-marko-obrvan-306344.jpg);
+  background-size: cover;
 }
 
 .jumbo .type {
@@ -34,7 +39,7 @@
   background-color: teal;
   background: linear-gradient(to right, purple, blue);
   padding: 4px;
-  height: 100%;
+  height: auto;
   border-radius: 2%;
   width: 30%;
 }
@@ -45,8 +50,14 @@
   padding: 10px;
   height: 20vh;
   border-radius: 2%;
-  min-height: 25vh;
   line-height: 20px;
+  min-height: 206px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 830px) {
