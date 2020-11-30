@@ -1,5 +1,37 @@
+#projects {
+  margin-top: 7px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: warp;
+  background-color: transparent;
+}
+
+#projects h1 {
+  color: white;
+}
+
 .project {
-  background-color: grey;
-  width: 33%;
+  width: 60%;
+  border-radius: 8px;
   margin-top: 10px;
+  justify-content: center;
+  background-color: cyan;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.project .bottom-row {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.project .bottom-row .link {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: green;
+  margin: 5px;
 }
