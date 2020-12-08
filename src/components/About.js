@@ -10,7 +10,7 @@ function About() {
     return(<div className='jumbo'>
         <div className='jumbo-inner'>
         <h1>Hello, World!</h1>
-        <p>I'm Raymond Ren</p>
+        <p>I am Raymond Ren</p>
         <div className='type'>
             <Typical
             steps = {['Aspiring Developer ', 2000, 'Student', 2000, 'Tetris Enthusiast', 2000]}
